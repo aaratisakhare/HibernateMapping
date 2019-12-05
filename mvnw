@@ -8,7 +8,11 @@
 # "License"); you may not use this file except in compliance
 # with the License.  You may obtain a copy of the License at
 #
+<<<<<<< HEAD
 #    https://www.apache.org/licenses/LICENSE-2.0
+=======
+#    http://www.apache.org/licenses/LICENSE-2.0
+>>>>>>> Hibernate one to one mapping
 #
 # Unless required by applicable law or agreed to in writing,
 # software distributed under the License is distributed on an
@@ -108,12 +112,20 @@ if $cygwin ; then
     CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
 fi
 
+<<<<<<< HEAD
 # For Mingw, ensure paths are in UNIX format before anything is touched
+=======
+# For Migwn, ensure paths are in UNIX format before anything is touched
+>>>>>>> Hibernate one to one mapping
 if $mingw ; then
   [ -n "$M2_HOME" ] &&
     M2_HOME="`(cd "$M2_HOME"; pwd)`"
   [ -n "$JAVA_HOME" ] &&
     JAVA_HOME="`(cd "$JAVA_HOME"; pwd)`"
+<<<<<<< HEAD
+=======
+  # TODO classpath?
+>>>>>>> Hibernate one to one mapping
 fi
 
 if [ -z "$JAVA_HOME" ]; then
@@ -199,6 +211,7 @@ if [ -z "$BASE_DIR" ]; then
   exit 1;
 fi
 
+<<<<<<< HEAD
 ##########################################################################################
 # Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
 # This allows using the maven wrapper in projects that prohibit checking in binary data.
@@ -282,6 +295,10 @@ export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-"$BASE_DIR"}
 if [ "$MVNW_VERBOSE" = true ]; then
   echo $MAVEN_PROJECTBASEDIR
 fi
+=======
+export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-"$BASE_DIR"}
+echo $MAVEN_PROJECTBASEDIR
+>>>>>>> Hibernate one to one mapping
 MAVEN_OPTS="$(concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config") $MAVEN_OPTS"
 
 # For Cygwin, switch paths to Windows format before running java
@@ -296,11 +313,14 @@ if $cygwin; then
     MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
 fi
 
+<<<<<<< HEAD
 # Provide a "standardized" way to retrieve the CLI args that will
 # work with both Windows and non-Windows executions.
 MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
 export MAVEN_CMD_LINE_ARGS
 
+=======
+>>>>>>> Hibernate one to one mapping
 WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
 
 exec "$JAVACMD" \
